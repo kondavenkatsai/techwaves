@@ -1,0 +1,76 @@
+.dropdown-menu{
+    border-radius: 0;
+    border: none;
+    padding: 2px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.dropdown-menu ul{
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown-menu li:first-child a{
+    font-weight: bold;
+    font-size: 1.1em;
+    color: black;
+}
+.dropdown-menu li a{
+    color: gray;
+    padding: .5em 1em;
+}
+@media  screen and (min-width:993px) {
+    .dropdown:hover .dropdown-menu{
+        display: flex;
+    }
+    .dropdown-menu.show{
+        display: flex;
+    }
+}
+@media screen and (max-width:992px){
+    .dropdown-menu.show{
+        max-height: 350px;
+        overflow-y: scroll;
+    }
+}
+
+/*section{
+    height: 800px;
+    
+    
+}*/
+.blockimage a{
+    text-decoration: none;
+    color: black;
+}
+.bi-lightning-fill{
+    color: gold;
+}
+.bg-info{
+    text-align: center;
+}
+.brand-title{
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+img:hover{
+    transform: scale(1.1);
+}
+footer{
+background-color: black;
+color: white;
+padding: 20px;
+display:grid;
+grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+.footer-title{
+font-weight: bold;
+margin-bottom: 20px;
+font-family: Arial;
+}
+.footer-title~span{
+display: block;
+margin-bottom: 8px;
+font-family: Arial;
+}

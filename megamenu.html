@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+    <link rel="shortcut icon" href="/public/images/favicon.ico">
+
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+
+    <link rel="stylesheet" href="/src/task/style.css">
+
+</head>
+<body class="container-fluid p-0">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" style="background-color: blue;">
+        <div class="container-fluid">
+            <img src="/public/images/flipkart.jpg" alt="flipkart" width="100px" height="100px">
+          <button type="button" class="navbar-toggler"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Men's Fashion
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <ul>
+                          <li><a class="dropdown-item" href="#"><img src="/public/images/Clothing.png" width="30" height="30" alt="please enable image">Clothing</a></li>
+                          <li><a class="dropdown-item" href="#">Shirts</a></li>
+                          <li><a class="dropdown-item" href="#">T-shirts</a></li>
+                          <li><a class="dropdown-item" href="#">Footwear</a></li>
+                      </ul>
+                    <ul>
+                      <li><a class="dropdown-item" href="#"><img src="/public/images/electronics.jpg" width="30" height="30" alt="please enable image">Electronics</a></li>
+                      <li><a class="dropdown-item" href="#">Mobiles</a></li>
+                      <li><a class="dropdown-item" href="#">Watches</a></li>
+                      <li><a class="dropdown-item" href="#">Laptops</a></li>
+                    </ul>
+                    <ul>
+                      <li><a class="dropdown-item" href="#"><img src="/public/images/footwear.jpg" width="30" height="30" alt="please enable image">Footwear</a></li>
+                      <li><a class="dropdown-item" href="#">Sports shoes</a></li>
+                      <li><a class="dropdown-item" href="#">Sneakers</a></li>
+                      <li><a class="dropdown-item" href="#">Skechers</a></li>
+                  </ul>  
+                  </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Women's Fashion
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <ul>
+                      <li><a class="dropdown-item" href="#"><img src="/public/images/cosmetics.jpg" width="30" height="30" alt="please enable image">Cosmetics</a></li>
+                      <li><a class="dropdown-item" href="#">Facewash</a></li>
+                      <li><a class="dropdown-item" href="#">Deodrants</a></li>
+                      <li><a class="dropdown-item" href="#">Creams</a></li>
+                  </ul>
+                  <ul>
+                    <li><a class="dropdown-item" href="#"><img src="/public/images/jewellery.jpg" width="30" height="30" alt="please enable image">Jewellery</a></li>
+                    <li><a class="dropdown-item" href="#">Ear rings</a></li>
+                    <li><a class="dropdown-item" href="#">Bracelets</a></li>
+                    <li><a class="dropdown-item" href="#">Neck chains</a></li>
+                  </ul>
+                  <ul>
+                    <li><a class="dropdown-item" href="#"><img src="/public/images/fashion2.jpg" width="30" height="30" alt="please enable image">Clothing</a></li>
+                    <li><a class="dropdown-item" href="#">Trousers</a></li>
+                    <li><a class="dropdown-item" href="#">Jeans</a></li>
+                    <li><a class="dropdown-item" href="#">T-shirts</a></li>
+                  </ul>  
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Kid's Fashion
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <ul>
+                          <li><a class="dropdown-item" href="#"><img src="/public/images/fashion3.jpg" width="30" height="30" alt="please enable image">Clothing</a></li>
+                          <li><a class="dropdown-item" href="#">Shirts</a></li>
+                          <li><a class="dropdown-item" href="#">T-shirts</a></li>
+                          <li><a class="dropdown-item" href="#">Cotton Jeans</a></li>
+                      </ul>
+                    <ul>
+                      <li><a class="dropdown-item" href="#"><img src="/public/images/toys.jpg" width="30" height="30" alt="please enable image">Toys</a></li>
+                      <li><a class="dropdown-item" href="#">Remote-Cars</a></li>
+                      <li><a class="dropdown-item" href="#">Bikes</a></li>
+                      <li><a class="dropdown-item" href="#">Trucks</a></li>
+                    </ul>
+                    <ul>
+                      <li><a class="dropdown-item" href="#"><img src="/public/images/foods.jpg" width="30" height="30" alt="please enable image">Foods</a></li>
+                      <li><a class="dropdown-item" href="#">Biscuits</a></li>
+                      <li><a class="dropdown-item" href="#">Chocolates</a></li>
+                      <li><a class="dropdown-item" href="#">Powders</a></li>
+                  </ul>  
+                  </div>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping"><span class="bi bi-search"></span></span>
+                <input type="search" class="form-control" placeholder="Search for products" aria-label="Search" aria-describedby="addon-wrapping">
+                <button type="submit" class="btn btn-outline-success me-lg-5">Search</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="cart">
+            <button class="btn btn-primary btn-sm" title="Login"><span class="bi bi-person"></span>Login</button>
+            <button class="btn btn-primary btn-sm" title="Wishlist"><span class="bi bi-list-stars"></span>Wishlist</button>
+            <button class="btn btn-primary btn-sm" title="Cart"><span class="bi bi-cart"></span>Cart</button>
+          </div>
+        </div>
+      </nav>
+
+      <section>
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/public/images/slide1.jpg" class="d-block w-100" alt="Please enable image">
+            </div>
+            <div class="carousel-item">
+              <img src="/public/images/slide2.jpg" class="d-block w-100" alt="Please enable image">
+            </div>
+            <div class="carousel-item">
+              <img src="/public/images/slide3.jpg" class="d-block w-100" alt="Please enable image">
+            </div>
+            <div class="carousel-item">
+              <img src="/public/images/slide4.jpg" class="d-block w-100" alt="Please enable image">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <br>
+
+        <div clas="container">
+          <div class="row">
+            <div class="col">
+              <h3>Top Rated</h3>
+              <div class="container text-center">
+                <div class="row row-cols-2 blockimage">
+                  <div class="col" style="border: none; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);"><a href="#"><img src="/public/images/sandals.png" width="200" height="200">Grey Mens Sandals & Slides<br><span style="color:green;">Specials</span></a></div>
+                  <div class="col" style="border: none; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);"><a href="#"><img src="/public/images/slippers.png" width="200" height="200">Mens Slippers & Flip Flops<br><span style="color:green;">Don't Miss</span></a></div>
+                  <div class="col" style="border: none; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);"><a href="#"><img src="/public/images/laptop-stand.png" width="200" height="200">Portable Laptop Tables<br><span style="color:green;">Grab Now</span></a></div>
+                  <div class="col" style="border: none; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);"><a href="#"><img src="/public/images/shirt.png" width="200" height="200">Formal shirts<br><span style="color:green;">Widest Range</span></a></div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col">
+              <h3>Recommended Items</h3>
+              <div class="container text-center">
+                <div class="row row-cols-2 blockimage">
+                  <div class="col" style="border: none; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);"><a href="#"><img src="/public/images/Footwear.png" width="200" height="200">Sports Shoes<br><span style="color:green;">Specials</span></a></div>
+                  <div class="col" style="border: none; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);"><a href="#"><img src="/public/images/Clothing.png" width="200" height="200">Mens Clothing<br><span style="color:green;">Grab Now</span></a></div>
+                  <div class="col" style="border: none; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);"><a href="#"><img src="/public/images/electronics.jpg" width="200" height="200">Electronic appliances<br><span style="color:green;">Don't miss</span></a></div>
+                  <div class="col" style="border: none; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);"><a href="#"><img src="/public/images/cosmetics.jpg" width="200" height="200">Cosmetics & More<br><span style="color:green;">Widest Range</span></a></div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <h3>You may Like...</h3>
+              <div class="container text-center">
+                <div class="row row-cols-2 blockimage">
+                  <div class="col" style="border: none; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);"><a href="#"><img src="/public/images/pic1.png" width="200" height="200">Ceramic Toys<br><span style="color:green;">Specials</span></a></div>
+                  <div class="col" style="border: none; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);"><a href="#"><img src="/public/images/pic2.png" width="200" height="200">Teddy's & Penguin toys<br><span style="color:green;">Don't Miss</span></a></div>
+                  <div class="col" style="border: none; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);"><a href="#"><img src="/public/images/fashion3.jpg" width="200" height="200">Kid's<br><span style="color:green;">Grab Now</span></a></div>
+                  <div class="col" style="border: none; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);"><a href="#"><img src="/public/images/pic4.png" width="200" height="200">Strollers<br><span style="color:green;">Widest Range</span></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <div class="bg-info container-fluid"><h3><span class="bi bi-lightning-fill"></span>Independence Day Offers <span class="bi bi-lightning-fill"></span></h3></div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <div class="container-fluid">
+                <div class="row bg-light">
+                  <div class="col-2">
+                    <div class="card" style="width: 15rem">
+                      <a><img src="/public/images/fashion1.jpg" class="card-img-top img-fluid" width="200" height="200" alt="..."></a>
+                      <div class="card-body">
+                        <h5 class="card-title">Men's</h5>
+                        <p class="card-text">Flash 50-80% off</p>
+                        <a href="#" class="btn btn-primary">Click here</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <div class="card" style="width: 15rem;">
+                      <a><img src="/public/images/fashion2.jpg" class="card-img-top img-fluid" width="200" height="200" alt="..."></a>
+                      <div class="card-body">
+                        <h5 class="card-title">Women's</h5>
+                        <p class="card-text">Flash 50-80% off</p>
+                        <a href="#" class="btn btn-primary">Click here</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <div class="card" style="width: 15rem;">
+                      <a><img src="/public/images/fashion3.jpg" class="card-img-top img-fluid" width="200" height="200" alt="..."></a>
+                      <div class="card-body">
+                        <h5 class="card-title">Kid's</h5>
+                        <p class="card-text">Flash 50-80% off</p>
+                        <a href="#" class="btn btn-primary">Click here</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <div class="card" style="width: 15rem;">
+                      <img src="/public/images/cosmetics.jpg" class="card-img-top img-fluid" width="200" height="200" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Cosmetics</h5>
+                        <p class="card-text">Flat 30% off</p>
+                        <a href="#" class="btn btn-primary">Click here</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <div class="card" style="width: 15rem;">
+                      <img src="/public/images/toys.jpg" class="card-img-top img-fluid" width="200" height="200" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Gifts & Toys</h5>
+                        <p class="card-text">August sale 40% off</p>
+                        <a href="#" class="btn btn-primary">Click here</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <div class="card" style="width: 15rem;">
+                      <img src="/public/images/footwear.jpg" class="card-img-top img-fluid" width="200" height="200" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Footwear</h5>
+                        <p class="card-text">Flat 60-70% off</p>
+                        <a href="#" class="btn btn-primary">Click here</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <div class="container-fluid">
+                <div class="row bg-light">
+                  <div class="col-2">
+                    <div class="card" style="width: 15rem">
+                      <a><img src="/public/images/jewellery.jpg" class="card-img-top img-fluid" width="200" height="200" alt="..."></a>
+                      <div class="card-body">
+                        <h5 class="card-title">Jewellery</h5>
+                        <p class="card-text">New Arrival</p>
+                        <a href="#" class="btn btn-primary">Click here</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <div class="card" style="width: 15rem;">
+                      <a><img src="/public/images/realme.jpg" class="card-img-top img-fluid" width="200" height="200" alt="..."></a>
+                      <div class="card-body">
+                        <h5 class="card-title">Mobiles</h5>
+                        <p class="card-text">15% off</p>
+                        <a href="#" class="btn btn-primary">Click here</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <div class="card" style="width: 15rem;">
+                      <a><img src="/public/images/electronics.jpg" class="card-img-top img-fluid" width="200" height="200" alt="..."></a>
+                      <div class="card-body">
+                        <h5 class="card-title">Electronics</h5>
+                        <p class="card-text">Flash 10-15% off</p>
+                        <a href="#" class="btn btn-primary">Click here</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <div class="card" style="width: 15rem;">
+                      <img src="/public/images/babyproducts.jpg" class="card-img-top img-fluid" width="200" height="200" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Baby care</h5>
+                        <p class="card-text">Flat 30% off</p>
+                        <a href="#" class="btn btn-primary">Click here</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <div class="card" style="width: 15rem;">
+                      <img src="/public/images/foods.jpg" class="card-img-top img-fluid" width="200" height="200" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Food items</h5>
+                        <p class="card-text">All food items</p>
+                        <a href="#" class="btn btn-primary">Click here</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <div class="card" style="width: 15rem;">
+                      <img src="/public/images/Footwear.png" class="card-img-top img-fluid" width="200" height="200" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Shoes</h5>
+                        <p class="card-text">Buy one & Get one</p>
+                        <a href="#" class="btn btn-primary">Click here</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <div class="container-fluid">
+                <div class="row bg-light">
+                  <div class="col-2">
+                    <div class="card" style="width: 15rem">
+                      <a><img src="/public/images/Bags & luggage.png" class="card-img-top img-fluid" width="200" height="200" alt="..."></a>
+                      <div class="card-body">
+                        <h5 class="card-title">Bags & luggage</h5>
+                        <p class="card-text">New arrival</p>
+                        <a href="#" class="btn btn-primary">Click here</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <div class="card" style="width: 15rem;">
+                      <a><img src="/public/images/pic1.png" class="card-img-top img-fluid" width="200" height="200" alt="..."></a>
+                      <div class="card-body">
+                        <h5 class="card-title">Toys</h5>
+                        <p class="card-text">Beautiful toys</p>
+                        <a href="#" class="btn btn-primary">Click here</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <div class="card" style="width: 15rem;">
+                      <a><img src="/public/images/fashion3.jpg" class="card-img-top img-fluid" width="200" height="200" alt="..."></a>
+                      <div class="card-body">
+                        <h5 class="card-title">Kid's</h5>
+                        <p class="card-text">Flash 50-80% off</p>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <div class="card" style="width: 15rem;">
+                      <img src="/public/images/cosmetics.jpg" class="card-img-top img-fluid" width="200" height="200" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Cosmetics</h5>
+                        <p class="card-text">Flat 30% off</p>
+                        <a href="#" class="btn btn-primary">Click here</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <div class="card" style="width: 15rem;">
+                      <img src="/public/images/toys.jpg" class="card-img-top img-fluid" width="200" height="200" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Gifts & Toys</h5>
+                        <p class="card-text">August sale 40% off</p>
+                        <a href="#" class="btn btn-primary">Click here</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <div class="card" style="width: 15rem;">
+                      <img src="/public/images/electronics.jpg" class="card-img-top img-fluid" width="200" height="200" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Electronics</h5>
+                        <p class="card-text">20-25% off</p>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div><br>
+        
+      </section>
+  
+      <footer>
+          <div>
+              <div class="footer-title"><a href="#about">About Us</a></div>
+              <span>Contact Us</span>
+              <span>Careers</span>
+              <span>Corporate Information</span>
+          </div>
+          <div>
+              <div class="footer-title"><a href="#category">Categories</a></div>
+              <span>Men's wear</span>
+              <span>Kids wear</span>
+              <span>Footwear</span>
+              <span>Cosmetics</span>
+          </div>
+          <div>
+              <div class="footer-title"><a href="#help">Help</a></div>
+              <span>Payments</span>
+              <span>Shipping</span>
+              <span>Cancellation & Returns</span>
+              <span>FAQ's</span>
+          </div>
+          <div>
+              <div class="footer-title"><a href="policy">Consumer Policy</a></div>
+              <span>Returns</span>
+              <span>Security</span>
+              <span>Privacy</span>
+              <span>Cancellation policy</span>
+          </div>
+      </footer>
+    
+</body>
+</html>
